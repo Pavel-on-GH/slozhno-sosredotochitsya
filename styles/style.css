@@ -134,13 +134,28 @@
   color: var(--accent-color);
   font-weight: bold;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 130%;
   background-color: var(--background-accent-color);
 }
 
 .link {
   color: var(--link-color);
   text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid var(--link-color);
+  text-shadow: 2px 2px 0 var(--shadow-color);
+}
+
+.link:focus {
+  outline: none;
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--shadow-color);
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--link-color);
 }
 
 .section__cards {
@@ -298,7 +313,7 @@
       'sunset sunset ice-cream'
       'tape books ice-cream'
       'tape street street';
-    gap: 25px;
+    gap: 23px;
   }
 
   .images__image-sunset {
