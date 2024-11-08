@@ -5,8 +5,22 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-color: #000028;
+  --background-accent-color: #ff0070;
+  --shadow-color: #ff0070;
+  --text-color: #f1b2ce;
+  --accent-color: #000028;
+  --header-color: #db00ff;
+  --decor-color: #ff0070;
+  --button-color: #ff0070;
+  --button-active-color: #ff0070;
+  --button-focus-color: #ff0070;
+  --main-font: '"IBM Plex Mono"', monospace;
+  --header-image: url('../images/cover-image-dark.png');
+  --section__title-color: #ff0070;
+  --link-color: #f1b2ce;
+}
+
+.page.theme_dark .header__logo {
+  display: inline-block;
 }
