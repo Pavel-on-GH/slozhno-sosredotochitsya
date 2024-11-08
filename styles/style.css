@@ -136,6 +136,7 @@
   font-size: 18px;
   line-height: 130%;
   background-color: var(--background-accent-color);
+  word-spacing: 0.55rem;
 }
 
 .link {
@@ -190,7 +191,6 @@
   font-family: var(--main-font);
   line-height: 130%;
   font-weight: 400;
-  word-spacing: 0.69em;
 }
 
 .section-methods .section__text-title {
@@ -267,11 +267,12 @@
   .title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-inline-start: -20px;
-    align-self: start;
   }
 
   .title_header {
     align-self: start;
+    word-spacing: 1rem;
+}
   }
 
   .header__description {
