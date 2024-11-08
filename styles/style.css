@@ -176,7 +176,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
-  word-spacing: 0.3rem;
+  word-spacing: 1rem;
 }
 
 .section__text-title {
@@ -189,8 +189,9 @@
 
 .section__text {
   font-family: var(--main-font);
-  line-height: 130%;
+  line-height: 129%;
   font-weight: 400;
+  word-spacing: 1rem;
 }
 
 .section-methods .section__text-title {
@@ -298,6 +299,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
+  }
+
+  .section__text {
+    word-spacing: 0px;
+    letter-spacing: 0.1rem;
   }
 
   .section__text-title {
