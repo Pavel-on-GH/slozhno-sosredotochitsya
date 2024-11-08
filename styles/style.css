@@ -190,6 +190,7 @@
   font-family: var(--main-font);
   line-height: 130%;
   font-weight: 400;
+  word-spacing: 0.69em;
 }
 
 .section-methods .section__text-title {
