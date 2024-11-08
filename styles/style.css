@@ -6,6 +6,10 @@
   font-style: normal;
   background-color: var(--background-color);
   background-attachment: fixed;
+  background-image: var(--header-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Header */
@@ -19,10 +23,6 @@
   align-items: center;
   padding-inline: 10px;
   padding-block: 10px;
-  background-image: var(--header-image);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .main {
@@ -122,11 +122,11 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: var(--button-focus-color) solid 1px;
+  border-bottom: currentColor solid 1px;
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--button-active-color);
+  border: 1px solid currentColor;
   pointer-events: none;
 }
 
@@ -142,21 +142,20 @@
 .link {
   color: var(--link-color);
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 .link:hover {
-  border-bottom: 1px solid var(--link-color);
-  text-shadow: 2px 2px 0 var(--shadow-color);
+  border-bottom: 1px solid currentColor;
 }
 
 .link:focus {
   outline: none;
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 .link:focus-visible {
-  outline: 1px solid var(--link-color);
+  outline: 1px solid currentColor;
 }
 
 .section__cards {
@@ -173,11 +172,10 @@
 
 .section__title {
   margin-block-end: 20px;
-  color: var(--section__title-color);
+  color: var(--section-title-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
-  word-spacing: 1rem;
 }
 
 .section__text-title {
@@ -190,9 +188,8 @@
 
 .section__text {
   font-family: var(--main-font);
-  line-height: 129%;
+  line-height: 130%;
   font-weight: 400;
-  word-spacing: 1rem;
 }
 
 .section-methods .section__text-title {
@@ -302,11 +299,6 @@
     gap: 20px;
   }
 
-  .section__text {
-    word-spacing: 0px;
-    letter-spacing: 0.1rem;
-  }
-
   .section__text-title {
     margin-block-start: 0;
   }
@@ -353,6 +345,10 @@
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
+
+  .title_footer {
+    margin-inline-start: 0;
+  }
 }
 
 /* Медиа-запросы - 1024 */
@@ -384,7 +380,7 @@
     max-inline-size: 315px;
   }
 
-  .section__cards-columns {
+  .section__cards-group {
     display: grid;
     grid-template-columns: repeat(3, minmax(315px, 1fr));
     gap: 20px;

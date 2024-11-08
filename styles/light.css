@@ -6,7 +6,6 @@
 
 .page.theme_light {
   --background-color: #fff1f7;
-  --main-font: 'IBM Plex Mono', monospace;
   --background-accent-color: #ff8dcb;
   --shadow-color: #ff8dcb;
   --text-color: #353430;
@@ -14,10 +13,8 @@
   --header-color: #ffc2e6;
   --decor-color: #353430;
   --button-color: #353430;
-  --button-active-color: #353430;
-  --button-focus-color: #353430;
   --header-image: url('../images/cover-image-light.png');
-  --section__title-color: #353430;
+  --section-title-color: #353430;
   --link-color: #353430;
 }
 
@@ -40,7 +37,6 @@
 
   :root {
     --background-color: #fff1f7;
-    --main-font: 'IBM Plex Mono', sans-serif;
     --background-accent-color: #ff8dcb;
     --shadow-color: #ff8dcb;
     --text-color: #353430;
@@ -48,10 +44,8 @@
     --header-color: #ffc2e6;
     --decor-color: #353430;
     --button-color: #353430;
-    --button-active-color: #353430;
-    --button-focus-color: #353430;
     --header-image: url('../images/cover-image-light.png');
-    --section__title-color: #353430;
+    --section-title-color: #353430;
     --link-color: #353430;
   }
 
