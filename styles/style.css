@@ -193,7 +193,8 @@
   font-family: var(--main-font);
   line-height: 130%;
   font-weight: 400;
-  word-spacing: 0.5rem;
+  letter-spacing: 0.05em;
+  /* word-spacing: 0.3rem; */
   /* !!! */
 }
 
