@@ -13,11 +13,12 @@
 .header {
   position: relative;
   display: grid;
+  block-size: 100vh;
+  min-block-size: 668px;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
   padding-inline: 10px;
   padding-block: 10px;
-  height: max(100vh, 668px);
   background-image: var(--header-image);
   background-repeat: no-repeat;
   background-position: center;
