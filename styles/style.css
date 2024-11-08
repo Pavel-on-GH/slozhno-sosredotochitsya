@@ -5,6 +5,7 @@
   font-size: 18px;
   font-style: normal;
   background-color: var(--background-color);
+  background-attachment: fixed;
 }
 
 /* Header */
