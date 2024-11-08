@@ -136,6 +136,7 @@
   font-size: 18px;
   line-height: 130%;
   background-color: var(--background-accent-color);
+  word-spacing: 0.7rem;
 }
 
 .link {
@@ -192,7 +193,7 @@
   font-family: var(--main-font);
   line-height: 130%;
   font-weight: 400;
-  word-spacing: 0.6rem;
+  word-spacing: 0.59rem;
   /* !!! */
 }
 
