@@ -192,6 +192,12 @@
   font-weight: 400;
 }
 
+.section__recommendations {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+
 .section-methods .section__text-title {
   font-weight: normal;
 }
@@ -199,7 +205,6 @@
 .section-methods .text-title_bold {
   margin-block-start: 5px;
   font-weight: bold;
-  margin-block-end: 20px;
 }
 
 .section-images {
