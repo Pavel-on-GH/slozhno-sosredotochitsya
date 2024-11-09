@@ -24,14 +24,14 @@
 
 @media (width >= 1024px) {
   .page.theme_light {
-    --shadow-color: #ff0070;
+    --shadow-color: #ff8dcb;
   }
 }
 
 @media (prefers-color-scheme: light) {
   @media (width >= 1024px) {
     .page {
-      --shadow-color: #ff0070;
+      --shadow-color: #ff8dcb;
     }
   }
 
@@ -44,6 +44,7 @@
     --header-color: #ffc2e6;
     --decor-color: #353430;
     --button-color: #353430;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
     --header-image: url('../images/cover-image-light.png');
     --section-title-color: #353430;
     --link-color: #353430;
