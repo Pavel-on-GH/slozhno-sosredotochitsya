@@ -199,6 +199,7 @@
 .section-methods .text-title_bold {
   margin-block-start: 5px;
   font-weight: bold;
+  margin-block-end: 20px;
 }
 
 .section-images {
